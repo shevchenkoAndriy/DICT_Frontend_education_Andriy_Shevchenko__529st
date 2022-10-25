@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Department of Information and Communication Technologies" />
+  <meta name="keywords" content="HTML, Example, Test, Metadata" />
+  <meta name="author" content="Shevchenko Andrey Sergeevich" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title>My first html page</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- <link rel="stylesheet" href="./index.css" /> -->
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <div class="nav-bar">
+        <a class="logo" href="#">
+          <image alt="dict_logo" src="./images/dict_logo.png" />
+        </a>
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link" href="#applicants">Абітурієнтам</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#students">Студентам</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#collaboration">Для компаній</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#science">Наука</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#about_us">Про нас</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#news">Новини</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#footer_contact">Контакти</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#form">Форма</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="schedule-bar">
+      <div><span>Сьогодні: Чисельник</span></div>
+
+      <a class="schedule-bar__link" href="https://education.khai.edu/union/schedule/department/504">Розклад</a>
+    </div>
+    <section class="banner" id="banner">
+      <div class="banner__wrapper">
+        <h1>Department of Information and Communication Technologies</h1>
+        <p>
+          Кафедра інформаційно - комунікаційних технологій імені О.О.
+          Зеленського спеціалізується на підготовці фахівців в області
+          мережевих, програмних та інформаційних технологій за двома
+          напрямками
+          <strong>
+            172 - Телекомунікації та радіотехніка і 126 - Інформаційні системи
+            та технології.
+          </strong>
+        </p>
+      </div>
+      <div class="banner__image">
+        <img src="./images/home_banner.svg" alt="banner" width="100%" hight="100%" />
+      </div>
+    </section>
+  </header>
+  <main>
+    <sections id="visitors">
+      <h2>Відвідувачам</h2>
+
+      <section>
+        <h3>Абітурієнтам</h3>
+        <p>
+          Підготовка фахівців в області мережних та інформаційних технологій,
+          а також застосування штучного інтелекту в аналізі та обробці даних.
+          Спеціальності і освітні програми. Траєкторії навчання студентів і
+          повний опис курсів.
+        </p>
+        <a href="#applicants">Дізнатися більше</a>
+      </section>
+      <section>
+        <h3>Студентам</h3>
+        <p>
+          172 – Телекомунікації та радіотехніка. 126 - Інформаційні системи та
+          технології. Підготовка фахівців в області мережних та інформаційних
+          технологій, а також застосування штучного інтелекту в аналізі та
+          обробці даних. Науковоосвітня програми та навчальні дисципліни.
+          Методичні матеріали.
+        </p>
+        <a href="#students">Дізнатися більше</a>
+      </section>
+
+      <sections>
+        <h3>Для компаній</h3>
+        <p>
+          Співпраця з компаніями та організаціями. Виконання спільних
+          прикладних проєктів і проведення наукових досліджень. Залучення
+          потенційних роботодавців до навчального процесу, спільна розробка
+          курсів, що викладаються.
+        </p>
+        <a href="#collaboration">Дізнатися більше</a>
+      </sections>
+
+      <section>
+        <h3>Наука</h3>
+        <p>
+          Наукові напрямки роботи кафедри, наші проєкти і можливості. Кафедра
+          має сильну наукову школу в сфері обробки мультимедійних даних із
+          застосуванням штучного інтелекту.
+        </p>
+        <a href="#science">Дізнатися більше</a>
+      </section>
+
+      <section>
+        <h3>Про нас</h3>
+        <p>
+          Кафедра інформаційно - комунікаційних технологій імені О. О.
+          Зеленського. Історія, розвиток кафедри і наші плани на майбутнє.
+        </p>
+        <a href="#about_us">Дізнатися більше</a>
+      </section>
+
+      <section>
+        <p>
+          Кафедра інформаційно - комунікаційних технологій імені О. О.
+          Зеленського спеціалізується на підготовці фахівців в області
+          мережевих, програмних та інформаційних технологій за двома
+          напрямками 172 - Телекомунікації та радіотехніка і 126 -
+          Інформаційні системи та технології.
+        </p>
+        <a href="#applicants">Дізнатися більше</a>
+      </section>
+    </sections>
+
+    <section id="news">
+      <h2>Новини</h2>
+      <ul>
+        <li>
+          <div class="news__image-wrapper"></div>
+          <div>
+            <h3>First news</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+              doloribus. Consequatur suscipit, tempore excepturi at quibusdam
+              odit ad commodi in blanditiis ipsam veritatis! Quas voluptas
+              nisi reiciendis quisquam, animi minima!
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="news__image-wrapper"></div>
+          <div>
+            <h3>Second news</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos dolores dolorem repellendus neque ratione cum veniam
+              debitis facilis totam provident beatae nobis obcaecati, quas
+              odio molestias eius deserunt aperiam! Cumque!
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="news__image-wrapper"></div>
+          <div>
+            <h3>Third news</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              delectus natus ipsam perspiciatis sed nesciunt consequatur qui
+              quae fugiat, dolore fuga iusto eligendi provident harum quos
+              autem animi corrupti. Nisi?
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="news__image-wrapper"></div>
+          <div>
+            <h3>Fourth news</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Similique eaque porro voluptatem eligendi nisi dolorem a
+              distinctio pariatur iste veniam dolore, vel corrupti sint
+              repudiandae aut unde neque, tempore fuga.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section id="applicants">
+      <h2>Абітурієнтам</h2>
+      <p>
+        Кафедра інформаційно - комунікаційних технологій імені О.О.
+        Зеленського спеціалізується на підготовці фахівців в області
+        мережевих, програмних та інформаційних технологій за двома напрямками
+        <strong>
+          172 - Телекомунікації та радіотехніка і 126 - Інформаційні системи
+          та технології.
+        </strong>
+      </p>
+      <ul>
+        <li>
+          <article>
+            <h3>ШТУЧНИЙ ІНТЕЛЕКТ ТА ІНФОРМАЦІЙНІ СИСТЕМИ</h3>
+            <p>
+              (В рамках спеціальності 126 «Інформаційні системи і технології»)
+            </p>
+            <p>
+              Являє собою симбіоз напрямку розробки мобільних і Web
+              інформаційних систем та використання машинного навчання і
+              елементів штучного інтелекту при обробці даних. Основні
+              технології і напрями навчання:
+            </p>
+            <ul>
+              <li>
+                <p>
+                  <b>
+                    <i>Машинне навчання та аналіз даних.</i>
+                  </b>
+                  Pandas, Scikit-learn, Keras, TensorFlow, PyTorch, постійне
+                  вивчання і використання Python впродовж 4-х курсів
+                </p>
+              </li>
+              <li>
+                <p>
+                  <b>
+                    <i>Інтелектуальна обробка мультимедіа.</i>
+                  </b>
+                  Участь у практичних проектах кафедри, яка має потужну
+                  наукову школу
+                </p>
+              </li>
+              <li>
+                <p>
+                  <b>
+                    <i>Full-stack Web-програмування.</i>
+                  </b>
+                  Front-end (HTML/CSS/React), Backend (Flask/Django,
+                  Spring/Micronaut), бази даних (PostgreSQL, MySQL, MongoDB,
+                  Redis)
+                </p>
+              </li>
+              <li>
+                <p>
+                  <b>
+                    <i>DevOps.</i>
+                  </b>
+                  Адміністрування UNIX/ Linux, CI/CD
+                </p>
+              </li>
+            </ul>
+          </article>
+        </li>
+        <li>
+          <article>
+            <img src="./images/manchester-central-gable-at-night.png" alt="Manchester central gable at night" />
+          </article>
+        </li>
+        <li>
+          <article>
+            <img src=".images/exchange_lower_foyer_1.png" alt="Exchange lower foyer" />
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>ІНЖИНІРИНГ І ПРОГРАМУВАННЯ ІНФОКОМУНІКАЦІЙНИХ СИСТЕМ</h3>
+            <p>
+              (В рамках спеціальності 172 «Телекомунікації та радіотехніка»)
+            </p>
+            <p>
+              Орієнтована на проектування телекомунікаційних та
+              інформаційно-комунікаційних систем і на програмування мережевих
+              додатків для створення інформаційних систем та сервісів. Основні
+              технології і напрями навчання:
+            </p>
+            <ol>
+              <li>
+                <p>
+                  <strong>
+                    <em>Мережева інженерія</em>
+                  </strong>
+                  (повний спектр курсів академії Cisco): комп'ютерні мережі,
+                  інтернет речей, кібербезпека , системне , адміністрування
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>
+                    <em>Бездротові технології </em>
+                  </strong>
+                  (SDR, IoT, мобільні системи 5G)
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>
+                    <em>Програмування на Python, Java/ Kotlin, JavaScript,
+                      C/C++</em>
+                  </strong>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>
+                    <em>Інфокомунікаційні системи</em>
+                  </strong>
+                  (FullStack Web-програмування: Front-end і Back-end, розробка
+                  Android додатків)
+                </p>
+              </li>
+            </ol>
+          </article>
+        </li>
+      </ul>
+      <section>
+        <h3>Як дізнатися про свої шанси щодо вступу</h3>
+        <p>
+          Для того, щоб ви могли дізнатися чи зможете ви вступити на ту чи іншу
+          освітню програму викладачі нашої кафедри Рубель О.С. і Проскура Г.А.
+          разом з активними студентами розробили потужний сервіс “Асистент при
+          вступі до ХАІ” і інтегрований з ним Телеграм-бот.
+          </a>
+        <ul>
+          <li>
+            <a href="https://t.me/assistant_dict_bot" target="_blank" rel="noopener noreferrer">Чи вистачить у мене
+              балів?</a>
+          </li>
+          <li>
+            <a href="https://t.me/assistant_dict_bot" target="_blank" rel="noopener noreferrer">Телеграм бот</a>
+          </li>
+        </ul>
+      </section>
+      <sections>
+        <h3>Як з нами зв'язатися</h3>
+        <ul>
+          <li>
+            <p>Електронна пошта - dict@khai.edu</p>
+          </li>
+          <li>
+            <p>Telegram - @dict_in_khai або +380995025775</p>
+          </li>
+          <li>
+            <p>Viber - +380995025775</p>
+          </li>
+          <li>
+            <p>Телефони: 0995025775, 0675425668</p>
+          </li>
+        </ul>
+      </sections>
+      <section>
+        <h3>Як до нас дістатися</h3>
+        <ul>
+          <li>
+            <p>
+              Від станції метро Університет: троллейбус №2, автобуси 296э, 65
+            </p>
+          </li>
+          <li>
+            <p>Від станції метро Південний вокзал автобуси 302, 278</p>
+          </li>
+          <li>
+            <p>Від станції метро Героїв праці автобуси 263е, 240, 271, 17е</p>
+          </li>
+        </ul>
+
+      </section>
+    </section>
+    <p>
+      Щоб дізнатися більше, перейдіть на сайт кафедри
+      інформаційно-комунікаційних технологій імені О. О. Зеленського
+    </p>
+    <a href="https://dict.khai.edu/" target="_blank" rel="noopener noreferrer">DICT</a>
+    <section id="students">
+      <p>Студентам</p>
+    </section>
+    <section id="collaboration">
+      <p>Для компаній</p>
+    </section>
+    <section id="science">
+      <p>Наука</p>
+    </section>
+    <section id="about_us">
+      <p>Про нас</p>
+    </section>
+    <article class="form-wrapper">
+      <section id="form">
+        <form>
+          <div class="form-group">
+            <p>Personal information</p>
+            <fieldset class="form-group">
+              <div class="form-fild">
+                <label for="first_name"></label>
+                <input id="first_name" type="text">
+              </div>
+
+              <div class="form-fild">
+                <label for="last_name"></label>
+                <input id="last_name" type="text">
+              </div>
+
+              <div class="form-fild">
+                <label for="email"></label>
+                <input id="email" type="email">
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="form-group">
+            <p>Favorite Web language</p>
+            <fieldset>
+              <div>
+                <input type="radio" id="html" name="language" value="HTML" checked>
+                <label for="html">HTML</label>
+              </div>
+
+              <div>
+                <input type="radio" id="css" name="language" value="CSS">
+                <label for="css">CSS</label>
+              </div>
+
+              <div>
+                <input type="radio" id="java_script" name="language" value="JavaScript">
+                <label for="java_script">JavaScript</label>
+              </div>
+
+              <div>
+                <input type="radio" id="php" name="language" value="PHP">
+                <label for="php">PHP</label>
+              </div>
+
+              <div>
+                <input type="radio" id="python" name="language" value="Python">
+                <label for="python">Python</label>
+              </div>
+            </fieldset>
+          </div>
+          <div class="form-group">
+            <p>Favorite Browser</p>
+            <fieldset>
+              <div>
+                <input type="checkbox" id="mozila_firefox" name="favorite_browser" value="Mozila Firefox" checked>
+                <label for="mozila_firefox">Mozila Firefox</label>
+              </div>
+
+              <div>
+                <input type="checkbox" id="google_chrome" name="favorite_browser" value="Google Chrome">
+                <label for="google_chrome">Google Chrome</label>
+              </div>
+
+              <div>
+                <input type="checkbox" id="opera" name="favorite_browser" value="Opera">
+                <label for="opera">Opera</label>
+              </div>
+
+              <div>
+                <input type="checkbox" id="microsoft_edge" name="favorite_browser" value="Microsoft Edge">
+                <label for="microsoft_edge">Microsoft Edge</label>
+              </div>
+            </fieldset>
+          </div>
+
+          <br>
+
+          <div class="form-fild">
+            <label for="favorite_color">Favorite color</label>
+            <input id="favorite_color" type="color">
+          </div>
+
+          <br>
+
+          <div class="form-fild">
+            <label for="date">Date</label>
+            <input id="date" type="date">
+          </div>
+
+          <br>
+
+          <div class="form-fild">
+            <label for="time">Time</label>
+            <input id="time" type="time">
+          </div>
+
+          <br>
+
+          <button type="reset">Clear form</button>
+
+          <button type="submit" onclick="alert('Form has been submitted succssfully')">Submit</button>
+
+        </form>
+      </section>
+    </article>
+
+  </main>
+  <footer>
+    <address id="footer_contact">
+      <div>
+        <div>
+          <h3>Зв'язатися з нами</h3>
+          <ul>
+            <li>
+              <a href="tel:+380995025775">+380995025775</a>
+            </li>
+            <li>
+              <a href="tel:+38067545668">+38067545668</a>
+            </li>
+            <li>
+              <a href="mailto:dict@khai.edu">dict@khai.edu</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Написати нам</h3>
+          <p>Telegram</p>
+        </div>
+
+        <div>
+          <h3>Соціальні мережі</h3>
+          <ul>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <h3>Наша адреса</h3>
+      <p>
+        61070 Харків,
+        вул. Чкалова, 17. НАУ ім. М.Є Жуковського "ХАІ" кафедра
+        інформаційно-комунікаційних технологій №504
+      </p>
+    </address>
+    <nav>
+      <div class="nav-bar">
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link" href="#applicants">Абітурієнтам</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#students">Студентам</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#collaboration">Для компаній</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#science">Наука</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#about_us">Про нас</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#news">Новини</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#footer_contact">Контакти</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#form">Форма</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <ul>
+      <li><a href="#">Accsessability</a></li>
+      <li><a href="#">Cookies</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Copyring</a></li>
+      <li><a href="#">Terms and condition</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
