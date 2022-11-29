@@ -4,6 +4,7 @@ body {
   background: #E5E5E5;
   margin: 0; }
   body img {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover; }
@@ -33,9 +34,113 @@ body {
 /* Mixin position */
 /* Placeholder */
 /* Animation */
+/* Flexbox containers */
+/* Flexbox direction */
+/* Flexbox wrap */
+/* Flexbox basis */
+/* Flexbox grow */
+/* Flexbox justify content */
+/* Flexbox align items */
+/* Flexbox align content */
+/* Flexbox align self */
+/* Flex */
+/* Order */
+.nav {
+  background-color: #FFF; }
+
+.nav-bar {
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 75em; }
+
+.menu {
+  display: flex; }
+  .menu__item {
+    padding: 30px 0;
+    list-style: none; }
+  .menu__link {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #102D40;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px; }
+  .menu__item:not(:last-child) {
+    margin-right: 24px; }
+
 .logo {
-  width: 103px;
-  height: 30px;
-  display: block; }
+  width: 180px;
+  display: block;
+  padding: 30px 0; }
+  .logo__image {
+    object-fit: contain; }
+
+.schedule-bar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  background-color: #E5E5E5;
+  opacity: .9; }
+  .schedule-bar__wrapper {
+    display: flex;
+    margin: 0 auto;
+    width: 75em;
+    color: #102D40;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px; }
+  .schedule-bar__description {
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+    .schedule-bar__description::after {
+      content: '';
+      display: block;
+      width: 35px;
+      height: 16px;
+      border-right: 2px solid #42454F; }
+  .schedule-bar__link {
+    padding: 20px 35px;
+    text-decoration: none;
+    font-weight: 700;
+    color: inherit; }
+
+.banner {
+  position: relative;
+  background-color: #102D40;
+  background-repeat: no-repeat;
+  background-image: url("../../../images/home_banner.svg");
+  background-position: 193% 98%;
+  padding: 160px 0; }
+  .banner__container {
+    margin: 0 auto;
+    width: 75em; }
+  .banner__description {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 60%; }
+  .banner__title {
+    color: #E56606;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+    width: 60%; }
 
 /*# sourceMappingURL=style.css.map */
