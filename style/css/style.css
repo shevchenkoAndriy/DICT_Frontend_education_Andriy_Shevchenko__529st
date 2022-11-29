@@ -1,0 +1,41 @@
+body {
+  font-size: 16px;
+  line-height: 1.25;
+  background: #E5E5E5;
+  margin: 0; }
+  body img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  body section {
+    max-width: 87.5em;
+    margin: 0 auto; }
+
+/* Flexbox containers */
+/* Flexbox direction */
+/* Flexbox wrap */
+/* Flexbox basis */
+/* Flexbox grow */
+/* Flexbox justify content */
+/* Flexbox align items */
+/* Flexbox align content */
+/* Flexbox align self */
+/* Flex */
+/* Order */
+/* Box Sizing */
+/* Box shadow */
+/* Transitions */
+/* Transform */
+/* Background size */
+/* Border Radius */
+/* Single side border-radius */
+/* Clearfix */
+/* Mixin position */
+/* Placeholder */
+/* Animation */
+.logo {
+  width: 103px;
+  height: 30px;
+  display: block; }
+
+/*# sourceMappingURL=style.css.map */
