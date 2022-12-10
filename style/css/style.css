@@ -1,0 +1,328 @@
+/* Flexbox containers */
+/* Flexbox direction */
+/* Flexbox wrap */
+/* Flexbox basis */
+/* Flexbox grow */
+/* Flexbox justify content */
+/* Flexbox align items */
+/* Flexbox align content */
+/* Flexbox align self */
+/* Flex */
+/* Order */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  background: #E5E5E5;
+  margin: 0;
+}
+body img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body .container {
+  max-width: 87.5em;
+  margin: 0 auto;
+}
+
+/* Flexbox containers */
+/* Flexbox direction */
+/* Flexbox wrap */
+/* Flexbox basis */
+/* Flexbox grow */
+/* Flexbox justify content */
+/* Flexbox align items */
+/* Flexbox align content */
+/* Flexbox align self */
+/* Flex */
+/* Order */
+/* Box Sizing */
+/* Box shadow */
+/* Transitions */
+/* Transform */
+/* Background size */
+/* Border Radius */
+/* Single side border-radius */
+/* Clearfix */
+/* Mixin position */
+/* Placeholder */
+/* Animation */
+/* Flexbox containers */
+/* Flexbox direction */
+/* Flexbox wrap */
+/* Flexbox basis */
+/* Flexbox grow */
+/* Flexbox justify content */
+/* Flexbox align items */
+/* Flexbox align content */
+/* Flexbox align self */
+/* Flex */
+/* Order */
+.nav {
+  background-color: #FFF;
+}
+
+.nav-bar {
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 75em;
+}
+
+.menu {
+  display: flex;
+}
+.menu__item {
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  list-style: none;
+}
+.menu__link {
+  width: 100%;
+  padding: 30px 0;
+  text-decoration: none;
+  color: #102D40;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.menu__item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.logo {
+  width: 180px;
+  display: block;
+  padding: 30px 0;
+}
+.logo__image {
+  object-fit: contain;
+}
+
+.schedule-bar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  background-color: #E5E5E5;
+  opacity: 0.9;
+}
+.schedule-bar__wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 75em;
+  color: #102D40;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.schedule-bar__description {
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  color: #102D40;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.schedule-bar__description::after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 16px;
+  border-right: 2px solid #42454F;
+}
+.schedule-bar__link {
+  padding: 20px 35px;
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+}
+
+.banner {
+  position: relative;
+  background: #102D40 url("../../../images/home_banner.svg") no-repeat right -425px bottom;
+  background-size: 64%;
+  padding: 160px 0;
+}
+.banner__container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 75em;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.banner__description {
+  width: 47%;
+}
+.banner__title {
+  color: #E56606;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70px;
+  width: 47%;
+}
+
+/* Flexbox containers */
+/* Flexbox direction */
+/* Flexbox wrap */
+/* Flexbox basis */
+/* Flexbox grow */
+/* Flexbox justify content */
+/* Flexbox align items */
+/* Flexbox align content */
+/* Flexbox align self */
+/* Flex */
+/* Order */
+.visitors {
+  position: relative;
+  margin: 100px 0;
+}
+.visitors__title {
+  text-align: center;
+  background-color: #E5E5E5;
+  width: 100%;
+  padding-bottom: 25px;
+  color: #102D40;
+  font-size: 80px;
+  line-height: 104px;
+}
+.visitors__wrapper {
+  display: flex;
+  background-color: #102D40;
+  width: 100%;
+  height: 100%;
+  color: #84CDE4;
+  font-size: 18px;
+  line-height: 23px;
+}
+.visitors__wrapper .learn-more-link {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 17.5px;
+  border-radius: 50%;
+  max-width: 20px;
+  display: block;
+  background: #FFF url("../../../images/arrow-right.svg") no-repeat center center;
+}
+.visitors__list {
+  width: 50%;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.visitors__list h3 {
+  margin-bottom: 25px;
+  font-size: 24px;
+  line-height: 31px;
+}
+.visitors__item {
+  width: 50%;
+}
+
+.card {
+  height: 100%;
+  padding: 30px;
+}
+
+.applicants-card {
+  position: relative;
+  width: 50%;
+  background: no-repeat left bottom url("../../../images/white-shape.svg"), no-repeat left bottom url("../../../images/green-shape.svg"), no-repeat right bottom url("../../../images/yellow-shape.svg");
+  padding: 30px 0 0 30px;
+}
+.applicants-card__title {
+  color: #FFF;
+  font-size: 36px;
+  line-height: 47px;
+  margin-bottom: 25px;
+}
+
+.students-card {
+  position: relative;
+}
+.students-card__title {
+  color: #FFF;
+}
+.students-card__description {
+  margin-bottom: 40px;
+}
+
+.for-company-card {
+  position: relative;
+  background-color: #84CDE4;
+  color: #102D40;
+}
+.for-company-card__description {
+  margin-bottom: 40px;
+}
+
+.science-card {
+  position: relative;
+  background-color: #E56606;
+  color: #102D40;
+}
+.science-card__description {
+  margin-bottom: 40px;
+}
+
+.about-card {
+  position: relative;
+  height: 100%;
+}
+.about-card::before {
+  content: "";
+  background-image: url("../../../images/people.png");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.15;
+}
+.about-card__description {
+  margin-bottom: 40px;
+}
+.about-card__title {
+  color: #FFF;
+}
+
+/*# sourceMappingURL=style.css.map */

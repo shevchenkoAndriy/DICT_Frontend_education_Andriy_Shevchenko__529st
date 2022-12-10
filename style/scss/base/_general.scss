@@ -1,0 +1,32 @@
+@import "../abstractions/flex_mixins";
+@import "../variables/breakpoints";
+@import "../variables/colors";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  background: $grey;
+  margin: 0;
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .container {
+    max-width: $widestdesk;
+    margin: 0 auto;
+  }
+}

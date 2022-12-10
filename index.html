@@ -15,16 +15,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <!-- <link rel="stylesheet" href="./index.css" /> -->
+   <link rel="stylesheet" href="./style/css/style.css" />
 </head>
 
 <body>
+<!--header start-->
   <header class="header">
-    <nav>
+    <nav class="nav">
       <div class="nav-bar">
         <a class="logo" href="#">
-          <image alt="dict_logo" src="./images/dict_logo.png" />
+          <img alt="dict_logo" class="logo__image" src="./images/dict_logo.png" />
         </a>
         <ul class="menu">
           <li class="menu__item">
@@ -54,98 +54,108 @@
         </ul>
       </div>
     </nav>
-    <div class="schedule-bar">
-      <div><span>Сьогодні: Чисельник</span></div>
 
-      <a class="schedule-bar__link" href="https://education.khai.edu/union/schedule/department/504">Розклад</a>
-    </div>
-    <section class="banner" id="banner">
-      <div class="banner__wrapper">
-        <h1>Department of Information and Communication Technologies</h1>
-        <p>
-          Кафедра інформаційно - комунікаційних технологій імені О.О.
-          Зеленського спеціалізується на підготовці фахівців в області
-          мережевих, програмних та інформаційних технологій за двома
-          напрямками
-          <strong>
-            172 - Телекомунікації та радіотехніка і 126 - Інформаційні системи
-            та технології.
-          </strong>
-        </p>
+      <div class="banner" id="banner">
+        <div class="schedule-bar">
+          <div class="schedule-bar__wrapper">
+            <span class="schedule-bar__description">Сьогодні: Чисельник</span>
+
+            <a class="schedule-bar__link" href="https://education.khai.edu/union/schedule/department/504">Розклад</a>
+          </div>
+        </div>
+        <div class="banner__container">
+            <h1 class="banner__title">Department of Information and Communication Technologies</h1>
+            <p class="banner__description">
+              Кафедра інформаційно - комунікаційних технологій імені О.О.
+              Зеленського спеціалізується на підготовці фахівців в області
+              мережевих, програмних та інформаційних технологій за двома
+              напрямками
+              <strong>
+                172 - Телекомунікації та радіотехніка і 126 - Інформаційні системи
+                та технології.
+              </strong>
+            </p>
+        </div>
       </div>
-      <div class="banner__image">
-        <img src="./images/home_banner.svg" alt="banner" width="100%" hight="100%" />
+
+  </header>
+<!--header end-->
+  <main>
+    <!--visitors start-->
+    <section class="visitors" id="visitors">
+      <h2 class="visitors__title">Відвідувачам</h2>
+      <div class="container">
+        <div class="visitors__wrapper">
+          <div class="applicants-card">
+            <h3 class="applicants-card__title">Абітурієнтам</h3>
+            <p class="applicants-card__description">
+              Підготовка фахівців в області мережних та інформаційних технологій,
+              а також застосування штучного інтелекту в аналізі та обробці даних.
+              Спеціальності і освітні програми. Траєкторії навчання студентів і
+              повний опис курсів.
+            </p>
+            <a class="learn-more-link" href="#applicants"></a>
+          </div>
+
+          <ul class="visitors__list">
+
+            <li class="visitors__item">
+              <div class="students-card card">
+                <h3 class="students-card__title">Студентам</h3>
+                <p class="students-card__description">
+                  172 – Телекомунікації та радіотехніка. 126 - Інформаційні системи та
+                  технології. Підготовка фахівців в області мережних та інформаційних
+                  технологій, а також застосування штучного інтелекту в аналізі та
+                  обробці даних. Науковоосвітня програми та навчальні дисципліни.
+                  Методичні матеріали.
+                </p>
+                <a class="learn-more-link"  href="#students"></a>
+                
+              </div>
+            </li>
+
+            <li class="visitors__item">
+              <div class="for-company-card card">
+                <h3 class="for-company-card__title">Для компаній</h3>
+                <p class="for-company-card__description">
+                  Співпраця з компаніями та організаціями. Виконання спільних
+                  прикладних проєктів і проведення наукових досліджень. Залучення
+                  потенційних роботодавців до навчального процесу, спільна розробка
+                  курсів, що викладаються.
+                </p>
+                <a class="learn-more-link" href="#collaboration"></a>
+              </div>
+            </li>
+
+            <li class="visitors__item">
+              <div class="science-card card">
+                <h3 class="science-card__title">Наука</h3>
+                <p class="science-card__description">
+                  Наукові напрямки роботи кафедри, наші проєкти і можливості. Кафедра
+                  має сильну наукову школу в сфері обробки мультимедійних даних із
+                  застосуванням штучного інтелекту.
+                </p>
+                <a class="learn-more-link" href="#science"></a>
+              </div>
+            </li>
+
+            <li class="visitors__item">
+              <div class="about-card card" >
+                <h3 class="about-card__title">Про нас</h3>
+                <p class="about-card__description">
+                  Кафедра інформаційно - комунікаційних технологій імені О. О.
+                  Зеленського. Історія, розвиток кафедри і наші плани на майбутнє.
+                </p>
+                <a class="learn-more-link" href="#about_us"></a>
+              </div>
+            </li>
+
+          </ul>
+        </div>
       </div>
     </section>
-  </header>
-  <main>
-    <sections id="visitors">
-      <h2>Відвідувачам</h2>
-
-      <section>
-        <h3>Абітурієнтам</h3>
-        <p>
-          Підготовка фахівців в області мережних та інформаційних технологій,
-          а також застосування штучного інтелекту в аналізі та обробці даних.
-          Спеціальності і освітні програми. Траєкторії навчання студентів і
-          повний опис курсів.
-        </p>
-        <a href="#applicants">Дізнатися більше</a>
-      </section>
-      <section>
-        <h3>Студентам</h3>
-        <p>
-          172 – Телекомунікації та радіотехніка. 126 - Інформаційні системи та
-          технології. Підготовка фахівців в області мережних та інформаційних
-          технологій, а також застосування штучного інтелекту в аналізі та
-          обробці даних. Науковоосвітня програми та навчальні дисципліни.
-          Методичні матеріали.
-        </p>
-        <a href="#students">Дізнатися більше</a>
-      </section>
-
-      <sections>
-        <h3>Для компаній</h3>
-        <p>
-          Співпраця з компаніями та організаціями. Виконання спільних
-          прикладних проєктів і проведення наукових досліджень. Залучення
-          потенційних роботодавців до навчального процесу, спільна розробка
-          курсів, що викладаються.
-        </p>
-        <a href="#collaboration">Дізнатися більше</a>
-      </sections>
-
-      <section>
-        <h3>Наука</h3>
-        <p>
-          Наукові напрямки роботи кафедри, наші проєкти і можливості. Кафедра
-          має сильну наукову школу в сфері обробки мультимедійних даних із
-          застосуванням штучного інтелекту.
-        </p>
-        <a href="#science">Дізнатися більше</a>
-      </section>
-
-      <section>
-        <h3>Про нас</h3>
-        <p>
-          Кафедра інформаційно - комунікаційних технологій імені О. О.
-          Зеленського. Історія, розвиток кафедри і наші плани на майбутнє.
-        </p>
-        <a href="#about_us">Дізнатися більше</a>
-      </section>
-
-      <section>
-        <p>
-          Кафедра інформаційно - комунікаційних технологій імені О. О.
-          Зеленського спеціалізується на підготовці фахівців в області
-          мережевих, програмних та інформаційних технологій за двома
-          напрямками 172 - Телекомунікації та радіотехніка і 126 -
-          Інформаційні системи та технології.
-        </p>
-        <a href="#applicants">Дізнатися більше</a>
-      </section>
-    </sections>
-
+    <!--visitors end-->
+    <!--news start-->
     <section id="news">
       <h2>Новини</h2>
       <ul>
@@ -199,6 +209,8 @@
         </li>
       </ul>
     </section>
+    <!--news end-->
+    <!--aplicants start-->
     <section id="applicants">
       <h2>Абітурієнтам</h2>
       <p>
@@ -270,7 +282,7 @@
         </li>
         <li>
           <article>
-            <img src=".images/exchange_lower_foyer_1.png" alt="Exchange lower foyer" />
+            <img src="./images/exchange_lower_foyer_1.png" alt="Exchange lower foyer" />
           </article>
         </li>
         <li>
@@ -331,7 +343,7 @@
           освітню програму викладачі нашої кафедри Рубель О.С. і Проскура Г.А.
           разом з активними студентами розробили потужний сервіс “Асистент при
           вступі до ХАІ” і інтегрований з ним Телеграм-бот.
-          </a>
+        </p>
         <ul>
           <li>
             <a href="https://t.me/assistant_dict_bot" target="_blank" rel="noopener noreferrer">Чи вистачить у мене
@@ -342,7 +354,7 @@
           </li>
         </ul>
       </section>
-      <sections>
+      <section>
         <h3>Як з нами зв'язатися</h3>
         <ul>
           <li>
@@ -358,7 +370,7 @@
             <p>Телефони: 0995025775, 0675425668</p>
           </li>
         </ul>
-      </sections>
+      </section>
       <section>
         <h3>Як до нас дістатися</h3>
         <ul>
@@ -374,14 +386,15 @@
             <p>Від станції метро Героїв праці автобуси 263е, 240, 271, 17е</p>
           </li>
         </ul>
-
+        <p>
+          Щоб дізнатися більше, перейдіть на сайт кафедри
+          інформаційно-комунікаційних технологій імені О. О. Зеленського
+        </p>
+        <a href="https://dict.khai.edu/" target="_blank" rel="noopener noreferrer">DICT</a>
       </section>
+
     </section>
-    <p>
-      Щоб дізнатися більше, перейдіть на сайт кафедри
-      інформаційно-комунікаційних технологій імені О. О. Зеленського
-    </p>
-    <a href="https://dict.khai.edu/" target="_blank" rel="noopener noreferrer">DICT</a>
+    <!--aplicants end-->
     <section id="students">
       <p>Студентам</p>
     </section>
@@ -395,6 +408,7 @@
       <p>Про нас</p>
     </section>
     <article class="form-wrapper">
+      <!--form start-->
       <section id="form">
         <form>
           <div class="form-group">
@@ -500,9 +514,11 @@
 
         </form>
       </section>
+      <!--form end-->
     </article>
 
   </main>
+<!--footer start-->
   <footer>
     <address id="footer_contact">
       <div>
@@ -580,6 +596,7 @@
       <li><a href="#">Terms and condition</a></li>
     </ul>
   </footer>
+<!--foter end-->
 </body>
 
 </html>
